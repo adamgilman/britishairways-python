@@ -1,0 +1,48 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Client-Key: [86hdfy9an8s7g7geekbfa9zt]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: https://api.ba.com:443/rest-v1/v1/flightOfferMktAffiliates;departureDateTimeOutbound=2015-04-03T00:00:00Z;locationCodeOriginOutbound=LHR;locationCodeDestinationOutbound=LAX;departureDateTimeInbound=2015-04-10T00:00:00Z;locationCodeOriginInbound=LAX;locationCodeDestinationInbound=LHR;cabin=Economy;ADT=1;CHD=0;INF=0;format=.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+xV227aQBD9lcjPCbLNJcRP2JC0kUggeNVWqiq0MVOzwt511nYAIf69M8bcmoKo
+        WqlVhB+QOT5ndmaOPbMweswdukJ31fSOa/CB62A88A1nYfh5EECaGo5hXBp9LQIY3WdCguZaQEqM
+        fXBuOF8XRsuHlxxkAI95/Awa1RbK8YQd2sLoaREK2YEUQZ4JJXsJ/aZHnhXR7yIRjjMfwhhkRuSW
+        q7V45VGHZ8BEDHiebVr1K7N2ZVaZZTu1umOamEGrAwnXWa7h11TzxqmuqatTNgXYzSqhA0g9pSaY
+        mAjbakT6HuKbuFhjovQqq64KitRLXvfjgCIw0DHWFCGSy4lUU2kssTerCo7J3S9E7CXYP2xKiNQI
+        m1lQ2ypOuJz7Y9Q+8qIqT4tMpOMLpE35PCXp7Usukm3PhC4ANk+IX202ifPA9QTehi8y8FxisL47
+        vJ1lINO1V23+LOS9/K5WZPpXKh6o4AIos/qsdDS6YJq/QhRhX5d4Xf6eo5bFrAZ6dIKjlsls67Cj
+        jeYBRz+d6iha8ieO4gvxLh39tlzuf+00IzCDdUTCmcp4RNOGAI+nsL5vubHKqSLj2q5Vborzcq1x
+        mszLHD54/SJtPltNILzZF9o1s3LdOKAkw/isBBhOvi6jL4sC7qa0jXbTqFcah6KRrs/aQ5J5Gvhk
+        hPav5uLPaAHyNAUZgiaPnnIuM5HNdx1xO4xO2j7CyYlHUKB19zYx3kP3luUEeLsx7PPGOG+Mv7Yx
+        cF2c4ihuDKt+xFH7gKPd88b4LzZG7d/OvB8AAAD//4KVeRZDs8YYEqGHu8YwHsAaw9LKiJgWKUip
+        mZUhzhapJY7yJXC0xhjtY1BaYwAAAAD//xpWMTpaY4zWGBTXGCajNcZojTHaxxitMUipMcwGRZln
+        aGAwNKuMoRF8uOsM09FxqdE6A62EAQAAAP//Ir/OMCGuFQCqMywRkY8Wo4amBriaAR6DstJwzE0F
+        lr2JeQpQdYQj1dw8nA6R6pqcn5efW0nN6sLC1HJQlHfAAm8oVhdDJPhwVxdm9K8uAAAAAP//Gu1i
+        jFYXo9XFEK0uzAdJeWc0NKuLoRF8uKsL8wGsLswRdQCh6sIEMTiOWbjgGsDwHpT1xVAoXEanL4Zb
+        3U+l6sLSYJCUd6ZDsrqgNPgAAAAA//+iU/Dhri4sRquL0eqCGtXF6NzF0KsuAAAAAP//IqO6MBok
+        5Z350Kwuhkbw4a4uLEeri9HqghrVxeg41GCNTCrVFIYGg2Npj6HR0FwZNVTCrxaaZmoBAAAA//8D
+        AHlzqxcFOAAA
+    headers:
+      ba-status-type: [rest-sc]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-length: ['978']
+      content-type: [application/json]
+      date: ['Sat, 28 Feb 2015 21:09:29 GMT']
+      p3p: [CP="CAO CURa ADMa DEVa TAIa PSAa PSDa IVDo CONo HISa TELi OUR DELa UNRa
+          OTRa BUS IND UNI PUR COM NAV INT DEM PRE"]
+      server: [Mashery Proxy]
+      set-cookie: [BIGipServercaptwo-auth.baplc.com-81=3882854051.20736.0000; path=/]
+      vary: [Accept-Encoding]
+      x-frame-options: ['SAMEORIGIN, SAMEORIGIN', SAMEORIGIN]
+      x-mashery-responder: [prod-j-worker-eu-west-1b-23.mashery.com]
+    status: {code: 200, message: OK}
+version: 1
