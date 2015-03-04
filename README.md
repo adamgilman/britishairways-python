@@ -1,4 +1,4 @@
-# britishairways-python
+# britishairways-python [![Build Status](https://travis-ci.org/adamgilman/britishairways-python.svg?branch=master)](https://travis-ci.org/adamgilman/britishairways-python)
 Python API to British Airways Flight Search
 
 ```bash
